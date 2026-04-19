@@ -1,0 +1,43 @@
+{
+  "name": "pratyaksha-context-eng-harness",
+  "version": "1.0.0",
+  "description": "Long-context discipline for Claude Code: Avacchedaka-typed retrieval, sublation, witness-consciousness invariants, event-boundary compaction, and Khyātivāda hallucination classification. 15 MCP tools, 3 skills, 3 agents, 4 commands, 3 hooks.",
+  "author": {
+    "name": "SharathSPhD",
+    "url": "https://github.com/SharathSPhD"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/SharathSPhD/pratyaksha-context-eng-harness",
+  "keywords": [
+    "context-engineering",
+    "long-context",
+    "rag",
+    "hallucination",
+    "mcp",
+    "claude-code",
+    "vedic-epistemology"
+  ],
+  "components": {
+    "agents": [
+      "agents/buddhi.md",
+      "agents/manas.md",
+      "agents/sakshi-keeper.md"
+    ],
+    "commands": [
+      "commands/context-status.md",
+      "commands/sublate.md",
+      "commands/budget.md",
+      "commands/compact-now.md"
+    ],
+    "skills": [
+      "skills/context-discipline/SKILL.md",
+      "skills/sublate-on-conflict/SKILL.md",
+      "skills/witness-prefix/SKILL.md"
+    ],
+    "hooks": "hooks/hooks.json"
+  },
+  "setup": {
+    "instructions": "Install uv (one-time): curl -LsSf https://astral.sh/uv/install.sh | sh",
+    "notes": "uv auto-installs all Python deps on first MCP tool call (~30s, then instant). The MCP server is registered via the marketplace manifest. Just install uv and restart Claude Code."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "pratyaksha_mcp": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "PLUGIN_ROOT=\"${CLAUDE_PLUGIN_ROOT:-$HOME/.claude/plugins/cache/pratyaksha-context-eng-harness}\" && cd \"$PLUGIN_ROOT/mcp\" && PATH=\"$PATH:$HOME/.local/bin\" uv run --no-project server.py"
+      ],
+      "description": "Pratyakṣa Context Engineering Harness — Avacchedaka-typed context store, sublation, witness invariants, boundary compaction, and Khyātivāda hallucination classification for long-context Claude Code sessions."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "name": "pratyaksha-context-eng-harness",
+  "owner": {
+    "name": "SharathSPhD",
+    "url": "https://github.com/SharathSPhD"
+  },
+  "plugins": [
+    {
+      "id": "pratyaksha-context-eng-harness",
+      "name": "Pratyakṣa Context Engineering Harness",
+      "version": "1.0.0",
+      "author": {
+        "name": "SharathSPhD",
+        "url": "https://github.com/SharathSPhD"
+      },
+      "license": "MIT",
+      "description": "Long-context discipline for Claude Code: typed (Avacchedaka) limitor conditions on every retrieval, sublation (bādha) of contradicted claims, witness-consciousness (Sākṣī) invariants enforced as system messages, event-boundary compaction, and Khyātivāda hallucination classification — surfaced as 15 MCP tools, 3 skills, 3 agents, 4 slash commands, and 3 lifecycle hooks. Built on Vedic epistemology, validated on RULER, HELMET, NoCha, HaluEval, TruthfulQA, FACTS-Grounding, and SWE-bench Verified.",
+      "source": "https://github.com/SharathSPhD/pratyaksha-context-eng-harness",
+      "repository": "https://github.com/SharathSPhD/pratyaksha-context-eng-harness",
+      "homepage": "https://github.com/SharathSPhD/pratyaksha-context-eng-harness",
+      "keywords": [
+        "context-engineering",
+        "long-context",
+        "rag",
+        "hallucination",
+        "mcp",
+        "agents",
+        "claude-code",
+        "vedic-epistemology",
+        "avacchedaka",
+        "sublation"
+      ],
+      "categories": [
+        "Context Management",
+        "MCP Servers",
+        "Agent Orchestration",
+        "Hallucination Detection"
+      ],
+      "rating": 5.0,
+      "downloads": 0,
+      "setup": {
+        "instructions": "curl -LsSf https://astral.sh/uv/install.sh | sh",
+        "notes": "Install uv (one-time, ~5 MB). Restart Claude Code. Python deps and the optional Qwen3 surprise model load lazily on first use — no venv, pip, or `claude mcp add` needed.",
+        "estimatedTime": "30 seconds"
+      },
+      "features": [
+        {
+          "name": "Avacchedaka-typed retrieval",
+          "description": "Every retrieval is gated by a typed (qualificand, qualifier, condition) limitor — no implicit context drift across topics."
+        },
+        {
+          "name": "Sublation of contradicted claims",
+          "description": "Bādha-style soft delete: when a higher-precision element contradicts an older one, the older element's precision drops to 0.0 but its provenance is preserved for audit."
+        },
+        {
+          "name": "Witness-consciousness invariants (Sākṣī)",
+          "description": "Stable per-session invariants are pushed as a real Claude `system` field both stages of the Manas/Buddhi flow — never inlined into user content."
+        },
+        {
+          "name": "Event-boundary compaction",
+          "description": "Token-level surprise (vLLM/HF/heuristic backend) detects discourse boundaries and triggers scoped store compression instead of indiscriminate truncation."
+        },
+        {
+          "name": "Khyātivāda hallucination classification",
+          "description": "7-class Vedic error taxonomy (Anyathā, Ātma, Akhyāti, Asat, Anirvacanīya, Viparīta, none) with few-shot Claude classifier and rule-based guardrails."
+        },
+        {
+          "name": "15 MCP tools + 3 skills + 3 agents + 4 commands + 3 lifecycle hooks",
+          "description": "Self-contained Claude Code plugin — no dependency on attractor-flow, ralph-loop, vllm, or mlflow."
+        }
+      ]
+    }
+  ]
+}
