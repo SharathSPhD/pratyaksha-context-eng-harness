@@ -1,0 +1,37 @@
+{
+  "name": "pratyaksha-context-eng-harness",
+  "metadata": {
+    "description": "Long-context discipline for Claude Code, grounded in Vedic epistemology — typed retrieval, sublation, witness invariants, boundary compaction, and Khyātivāda hallucination classification."
+  },
+  "owner": {
+    "name": "SharathSPhD",
+    "url": "https://github.com/SharathSPhD"
+  },
+  "plugins": [
+    {
+      "name": "pratyaksha-context-eng-harness",
+      "source": "./",
+      "description": "15 MCP tools for long-context Claude Code: Avacchedaka-typed retrieval, sublation of contradicted claims, witness-consciousness invariants, event-boundary compaction, and Khyātivāda hallucination classification. Plus 3 skills, 3 agents, 4 commands, and 3 lifecycle hooks.",
+      "version": "2.0.0",
+      "author": {
+        "name": "SharathSPhD",
+        "url": "https://github.com/SharathSPhD"
+      },
+      "repository": "https://github.com/SharathSPhD/pratyaksha-context-eng-harness",
+      "homepage": "https://github.com/SharathSPhD/pratyaksha-context-eng-harness",
+      "license": "MIT",
+      "keywords": [
+        "context-engineering",
+        "long-context",
+        "rag",
+        "hallucination",
+        "mcp",
+        "agents",
+        "claude-code",
+        "vedic-epistemology",
+        "avacchedaka",
+        "sublation"
+      ]
+    }
+  ]
+}
