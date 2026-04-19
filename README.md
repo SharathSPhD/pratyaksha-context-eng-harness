@@ -6,6 +6,9 @@
 > hallucination taxonomy (Khyātivāda) — surfaced as **15 MCP tools, 3
 > skills, 3 agents, 4 slash commands, and 3 lifecycle hooks**.
 
+> **New here?** Jump to [**QUICKSTART.md**](QUICKSTART.md) for a
+> 30-minute hands-on tour with five challenging end-to-end examples.
+
 ## Why
 
 Long context windows do not solve long-context problems. The failure modes
