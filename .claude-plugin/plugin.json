@@ -33,6 +33,5 @@
     "./skills/context-discipline/SKILL.md",
     "./skills/sublate-on-conflict/SKILL.md",
     "./skills/witness-prefix/SKILL.md"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }
