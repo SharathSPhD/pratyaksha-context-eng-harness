@@ -2,7 +2,7 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
-#   "mcp>=1.0.0",
+#   "mcp>=1.0.0,<2.0.0",
 # ]
 # ///
 """Smoke test for the pratyaksha MCP server.
